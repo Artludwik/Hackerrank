@@ -1,2 +1,2 @@
 read x
-echo "scale=3; $x" | bc
+printf "%.3f\n" `echo "$x" | bc -l`

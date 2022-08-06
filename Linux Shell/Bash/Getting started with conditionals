@@ -1,13 +1,7 @@
 read x
-if (("$x" == "n")); 
-then
-echo "NO"
-elif (("$x" == "N"));
-then
-echo "NO"
-elif (("$x" == "y"));
+if [[ $x == "Y" || $x == "y" ]];
 then
 echo "YES"
 else
-echo "YES"
-fi
+echo "NO"
+fi;

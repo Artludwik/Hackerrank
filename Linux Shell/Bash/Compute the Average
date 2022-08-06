@@ -13,3 +13,10 @@ done
 
 $avg = $( echo "$sum / $x" | bc -l )
 printf "%0.2f" $avg
+
+
+
+#!/bin/bash
+read x 
+$sum=x
+printf "%0.3f" `echo "$sum / $x" | bc -l`

@@ -1,1 +1,1 @@
-tail -14 | head -11
+head -22 | tail -11

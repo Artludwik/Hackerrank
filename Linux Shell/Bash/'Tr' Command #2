@@ -1,1 +1,1 @@
-tr '[:lower:]' ' '
+tr -d [:lower:]
